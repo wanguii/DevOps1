@@ -5,22 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingLeft="24dp"
+    android:paddingLeft="@dimen/marg"
     android:gravity="center_horizontal"
-    android:paddingRight="24dp"
+    android:paddingRight="@dimen/marg"
     tools:context=".MainActivity">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/image_movie_banner"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="@dimen/dimensions"
+        android:layout_height="@dimen/dimensions"
         android:src="@mipmap/ic_launcher"
-        android:layout_marginTop="64dp"/>
+        android:layout_marginTop="@dimen/photoupdate"/>
 
     <!-- EditText for movie title -->
+
     <ImageView
-        android:layout_width="64dp"
-        android:layout_height="64dp"
+        android:layout_width="@dimen/photoupdate"
+        android:layout_height="@dimen/photoupdate"
         android:layout_marginTop="-35dp"
         android:layout_marginRight="-35dp"
         android:background="@drawable/fab_background"
@@ -31,11 +32,11 @@
         android:id="@+id/edit_movie_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="12dp"
-        android:paddingBottom="12dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginBottom="24dp"
-        android:paddingLeft="12dp"
+        android:paddingTop="@dimen/padding"
+        android:paddingBottom="@dimen/padding"
+        android:layout_marginTop="@dimen/alone"
+        android:layout_marginBottom="@dimen/marg"
+        android:paddingLeft="@dimen/padding"
         android:ems="10"
         android:hint="Enter title"
         android:background="@drawable/border_edit_text"
@@ -52,8 +53,16 @@
         android:background="@drawable/border_edit_text"
         android:inputType="text"
         android:hint="Enter description"
-        android:paddingTop="24dp"
-        android:paddingBottom="24dp"
-        android:paddingLeft="12dp"
+        android:paddingTop="@dimen/marg"
+        android:paddingBottom="@dimen/marg"
+        android:paddingLeft="@dimen/padding"
         android:text="" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="@dimen/alot"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/prdd"
+        android:text="Button" />
+
 </LinearLayout>

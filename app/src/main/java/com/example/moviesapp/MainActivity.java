@@ -2,8 +2,11 @@ package com.example.moviesapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
+
+    ImageView addTag;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
