@@ -15,13 +15,13 @@
         android:layout_width="@dimen/dimensions"
         android:layout_height="@dimen/dimensions"
         android:src="@mipmap/ic_launcher"
-        android:layout_marginTop="@dimen/photoupdate"/>
+        android:layout_marginTop="@dimen/photo_update"/>
 
     <!-- EditText for movie title -->
 
     <ImageView
-        android:layout_width="@dimen/photoupdate"
-        android:layout_height="@dimen/photoupdate"
+        android:layout_width="@dimen/photo_update"
+        android:layout_height="@dimen/photo_update"
         android:layout_marginTop="-35dp"
         android:layout_marginRight="-35dp"
         android:background="@drawable/fab_background"
