@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimensions">150dp</dimen>
+    <dimen name="photo_update">64dp</dimen>
+    <dimen name="padding">12dp</dimen>
+    <dimen name="marg">24dp</dimen>
+    <dimen name="prdd">25dp</dimen>
+    <dimen name="alone">32dp</dimen>
+    <dimen name="alot">355dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>
