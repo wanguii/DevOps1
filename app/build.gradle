@@ -31,6 +31,8 @@ dependencies {
     //Glide external libraries
 
     implementation 'com.github.bumptech.glide:glide:4.10.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.10.0'
 
     testImplementation 'junit:junit:4.12'
